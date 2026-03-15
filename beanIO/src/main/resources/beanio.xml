@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beanio xmlns="http://www.beanio.org/2012/03">
+<stream name="emp" format="csv">
+<record name="model" class="project.beanIO.Model">
+<field name="id"></field>
+<field name="name"></field>
+<field name="email"></field>
+</record>
+</stream>
+</beanio>
