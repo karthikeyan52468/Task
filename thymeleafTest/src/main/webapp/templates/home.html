@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Example</title>
+</head>
+<body>
+
+<h1 th:text="${name}"></h1>
+<h1 th:if="${age >= 18}" th:text="'eleigble to vote'"></h1>
+<h1 th:unless="${age >= 18}" th:text="'not eleigble to vote'"></h1>
+<h1 th:each="c : ${car}" th:text="${c}"></h1>
+</body>
+</html>
