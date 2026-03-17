@@ -7,7 +7,10 @@ public class User {
 	private double pi=3.14;
 	public User(){}
 	
-	private User(int id) {}
+	private User(int id) {
+		
+		System.out.print(id);
+	}
 	
 	 User(int id,String name) {}
 	
