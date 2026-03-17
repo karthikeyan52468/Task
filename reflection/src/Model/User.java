@@ -4,7 +4,7 @@ public class User {
 
 	private int id;
 	private String name;
-	
+	private double pi=3.14;
 	public User(){}
 	
 	private User(int id) {}
